@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es2020",
+        "module": "commonjs",
+        "strict": false,
+        "esModuleInterop": true,
+        "outDir": "dist",
+        "declaration": true,
+        "paths": {
+            "@xyrusworx/hardhat-solidity-json": [
+                "../src"
+            ]
+        }
+    },
+    "include": [
+        "./scripts",
+        "./test",
+        "./typechain"
+    ],
+    "files": [
+        "./hardhat.config.ts"
+    ]
+}
