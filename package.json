@@ -1,6 +1,6 @@
 {
   "name": "@xyrusworx/hardhat-solidity-json",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This plugin provides a task named solidity-json, which exports the JSON needed to verify deployed smart contracts in block scanners like Etherscan.",
   "repository": "github:xyrusworx/hardhat-solidity-json",
   "author": {
