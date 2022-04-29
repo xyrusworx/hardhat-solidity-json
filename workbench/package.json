@@ -2,7 +2,7 @@
   "name": "@xyrusworx/hardhat-solidity-json-workbench",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx hardhat compile && npx hardhat std-solidity-json"
+    "start": "npx hardhat compile && npx hardhat solidity-json"
   },
   "private": true,
   "devDependencies": {

@@ -14,7 +14,7 @@ async function makeDirIfNotExists(directory) {
 }
 
 // noinspection JSUnusedGlobalSymbols
-export default task("std-solidity-json", "Extract Standard Solidity Input JSON", async (taskArgs, hre) => {
+export default task("solidity-json", "Extract Standard Solidity Input JSON", async (taskArgs, hre) => {
     const names = await hre.artifacts.getAllFullyQualifiedNames();
     const baseDir = "./artifacts/solidity-json";
 
